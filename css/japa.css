@@ -1,0 +1,38 @@
+.black-style {
+    filter: grayscale(100%);
+}
+
+.fs-7 {
+    font-size: 0.75rem;
+}
+
+.fs-8 {
+    font-size: 0.65rem;
+}
+
+.fs-9 {
+    font-size: 0.55rem;
+}
+
+.text-siva {
+    color: #AAAAAA;
+}
+
+.vh-60 {
+    height: 60vh;
+}
+
+.vh-70 {
+    height: 70vh;
+}
+
+.vh-80 {
+    height: 80vh;
+}
+
+
+    #IzbGrupa .dropdown-item {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        line-height: 1.5;
+    }
