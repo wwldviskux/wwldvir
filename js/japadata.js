@@ -131,7 +131,7 @@ var APlesi =
 
 
 var APgrupe =[
-['🕺🕺🕺 Vir četrtek 7.0']
+['🕺Vir četrtek 7.0']
 ,['🕺JaPa']    
 ]    
 
