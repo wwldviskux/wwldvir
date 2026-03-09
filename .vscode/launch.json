@@ -5,7 +5,8 @@
       "type": "pwa-msedge",
       "request": "launch",
       "name": "Open HTML in Edge",
-      "file": "${workspaceFolder}/index.html?PL=byqrxthghi-bncdnvrghi"
+      "file": "${workspaceFolder}/index.html?PL=byqrxthghi-bncdnvrghi",
+      "webRoot": "${workspaceFolder}"
     }
   ]
 }

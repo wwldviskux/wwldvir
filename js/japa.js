@@ -430,7 +430,7 @@ function nalozi_body(par0) {
 
   <!-- STARI -->
   <div data-bs-theme="dark" class="mb-4">
-    <label class="form-label">Stari</label>
+    <label class="form-label">Starejši plesi</label>
     <div class="row align-items-center">
       <div class="col">
         <input type="range" class="form-range" id="stariRange" min="0" max="100" value="50" onchange="KreSezOsv('stariRange')">
@@ -446,13 +446,13 @@ function nalozi_body(par0) {
   <div class="mb-4">
     <div class="d-flex align-items-center gap-2" style="cursor:pointer;" onclick="KreSezOsv('zdruziIcon')">
       <i id="zdruziIcon" class="bi bi-circle text-secondary fs-4"></i>
-      <span>združi</span>
+      <span>Združi in prikaži v naključnem vrstnem redu</span>
     </div>
   </div>
 
   <!-- NOVO -->
   <div data-bs-theme="dark" class="mb-4">
-    <label class="form-label">Novo</label>
+    <label class="form-label">Novejši plesi</label>
     <div class="row align-items-center">
       <div class="col">
         <input type="range" class="form-range"  id="novoRange" min="0" max="100" value="50" onchange="KreSezOsv('novoRange')" >
