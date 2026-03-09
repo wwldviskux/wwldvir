@@ -31,8 +31,30 @@
 }
 
 
-    #IzbGrupa .dropdown-item {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        line-height: 1.5;
-    }
+#IzbGrupa .dropdown-item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 1.5;
+}
+
+
+
+
+
+@font-face {
+    font-family: "CowboyOutlawTextured";
+    src: url("../fonts/CowboyOutlawTextured.otf") format("opentype");
+}
+
+.CowBFont {
+    font-family: "CowboyOutlawTextured", serif !important;
+}
+
+
+bodyxx {
+    font-family: "CowboyOutlawTextured", serif !important;
+}
+
+:rootxx {
+    --bs-body-font-family: "CowboyOutlaw", serif !important;
+}

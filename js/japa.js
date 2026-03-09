@@ -157,7 +157,7 @@ function prikazi_PListo(tip, divid) {
         if (tmparr[vrsticar][0] === arlinki[vrstica][0]) {
           strtmp = strtmp + `
         <p class="m-0 lh-base d-flex flex-column align-items-center bg-dark text-light" onclick="gFrameNav(${vrstica})">
-        <span class="fs-3 fw-bold">${arlinki[vrstica][2]}</span>
+        <span class="fs-3 fw-bold CowBFont">${arlinki[vrstica][2]}</span>
         <span class="fs-7">${arlinki[vrstica][3]}</span>
         </p>
       `;
@@ -250,7 +250,7 @@ function prikazi_PListo(tip, divid) {
 
             strtmp = strtmp + `
         >
-        <span class="${vfs3}  fw-bold">${arlinki[vrstica][2]}</span>
+        <span class="${vfs3}  fw-bold CowBFont">${arlinki[vrstica][2]}</span>
         <span class="${vfs7}">${arlinki[vrstica][3]}</span>
         <span class="${vfs7}">&nbsp;</span>
         <span class="${vfs7}">&nbsp;</span>
@@ -390,38 +390,6 @@ function nalozi_body(par0) {
 
 
 
-
-  if (par0 == 'services') {
-
-
-    if (urli !== null) {
-      urli.close();
-      urli = null;
-    }
-
-
-
-    urli = window.open('https://www.youtube.com/watch?v=IYd1-cPwQCk', '_blank');
-    document.getElementById('bodydiv').innerHTML = `
--->: https://www.youtube.com/watch?v=IYd1-cPwQCk
-              `;
-
-
-
-    /*
-    if (timerx) clearInterval(timerx);
-
-        timerx = setInterval(() => {
-            if (urli.closed) {
-                clearInterval(timerx); // ustavi interval
-              alert('Tab se je zaprl');
-            }
-        }, 1000);
-              */
-
-
-    return 1
-  }
 
 
   if (par0 == 'UstvariSeznam') {
