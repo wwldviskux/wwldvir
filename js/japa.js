@@ -509,8 +509,8 @@ function DokEvents(tip) {
 
 
 function GrupaSetData(idgrupe) {
-  document.getElementById("Izbskupina").innerHTML = APgrupe[idgrupe];
-  document.title=APgrupe[idgrupe];
+  document.getElementById("Izbskupina").innerHTML = APgrupe[idgrupe][0];
+  document.title = APgrupe[idgrupe][0];
   arlinki.length = 0;
 
   for (ples = 0; ples < APlesiGrupe[idgrupe].length; ples++) {
@@ -525,6 +525,53 @@ function GrupaSetData(idgrupe) {
   uredigrupdata(1);
 
   nalozi_body('SeznamPlesov');
+
+}
+
+
+function initIzbIzPar(Par0) {
+  const params = new URLSearchParams(window.location.search);
+  let pl = params.get('PL');
+//  pl = "xbncdnvrghi" + '-' + "byqrxthghi"+'-'+"bncdnvrghi";
+
+
+
+  let plArray = [];
+  let strhtm = '';
+  let jeprvi = -1;
+
+
+
+  if (pl) {
+    // Kreiranje niza tako da se deli po '-'
+    plArray = pl.split('-');
+  }
+
+  for (vrstica = 0; vrstica < APgrupe.length; vrstica++) {
+    APgrupe[vrstica][1] = kontrolniStringAZ(APgrupe[vrstica][0], 10);
+  }
+
+
+  for (vpl = 0; vpl < plArray.length; vpl++) {
+
+
+    for (vrstica = 0; vrstica < APgrupe.length; vrstica++) {
+      if (APgrupe[vrstica][1] === plArray[vpl]) {
+        
+        strhtm += `<li><a class="dropdown-item" href="#" onclick="GrupaSetData(${vrstica})">${APgrupe[vrstica][0]}</a></li>`;
+        
+        if (jeprvi < 0)
+          jeprvi = vrstica;
+      }
+    }
+  }
+
+
+  document.getElementById('IzbGrupa').innerHTML = strhtm;
+
+  if (jeprvi>=0)
+  GrupaSetData(jeprvi);
+
 
 }
 

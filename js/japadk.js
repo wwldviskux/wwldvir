@@ -156,6 +156,31 @@ function prikaziTimer(BrezVred, TimerIntervalMs) {
   return retval;
 }
 
+function kontrolniStringAZ(input, length) {
+  if (!input || length <= 0) return "";
+
+  const aCode = "a".charCodeAt(0);
+  const zCode = "z".charCodeAt(0);
+  const letters = zCode - aCode + 1;
+
+  // preprost hash iz vhodnega niza
+  let hash = 0;
+  for (let i = 0; i < input.length; i++) {
+    hash = (hash * 31 + input.charCodeAt(i)) >>> 0; // 32-bit unsigned
+  }
+
+  let result = "";
+  let n = hash;
+
+  for (let i = 0; i < length; i++) {
+    const charCode = aCode + (n % letters);
+    result += String.fromCharCode(charCode);
+    n = Math.floor(n / letters) + i; // malo variira za večjo raznolikost
+  }
+
+  return result;
+}
+
 
 
 
