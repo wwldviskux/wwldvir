@@ -324,69 +324,11 @@ function nalozi_body(par0) {
   }
 
 
-  if (par0 == 'about') {
-    document.getElementById('bodydiv').innerHTML = `
-        < div class="container-fluid" >
-          <div class="row g-2"> <!-- malo razmaka med stolpci -->
-
-            <div class="col-md-4">
-              <div class="card shadow-sm rounded-2 p-1 h-100">
-                <div class="fs-4 fw-bold text-primary mb-1">01</div>
-                <div class="text-muted">
-                  <p class="m-0 lh-base">Prva vrstica besedila.</p>
-                  <p class="m-0 lh-base">Druga vrstica besedila.</p>
-                  <p class="m-0 lh-base">Tretja vrstica.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card shadow-sm rounded-2 p-1 h-100">
-                <div class="fs-4 fw-bold text-primary mb-1">02</div>
-                <div class="text-muted">
-                  Prva vrstica besedila.<br>
-                    Druga vrstica besedila.<br>
-                      Tretja vrstica.
-                    </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card shadow-sm rounded-2 p-1 h-100">
-                  <div class="fs-4 fw-bold text-primary mb-1">03</div>
-                  <div class="text-muted">
-                    Prva vrstica besedila.<br>
-                      Druga vrstica besedila.<br>
-                        Tretja vrstica.
-                      </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="card shadow-sm rounded-2 p-1 h-100">
-                    <div class="fs-4 fw-bold text-primary mb-1">03</div>
-                    <div class="text-muted">
-                      Prva vrstica besedila.<br>
-                        Druga vrstica besedila.<br>
-                          Tretja vrstica.
-                        </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-              `;
-    return 1
-  }
-
-
 
 
   if (par0 === 'predvajajSeznam') {
     prikazi_PListo(10, 'bodydiv');
   }
-
-
 
 
 
@@ -430,9 +372,20 @@ function nalozi_body(par0) {
     </div>
   </div>
 
-<a href="#" class="btn-img">
-  <img src="img/kocka.gif" alt="Start" class="btn-img-inner black-style" onclick="prikazi_PListo(1,'playdiv')" >
-</a>
+
+
+<div class="d-flex justify-content-between px-3 bg-dark p-3">
+
+  <button class="btn btn-outline-light" onclick="prikazi_PListo(1,'playdiv')">
+   <img src="img/kocka.gif" alt="Start" class="btn-img-inner black-style btn-icon" style="width:30px;height:30px;"> Kreiraj
+  </button>
+
+  <button class="btn btn-outline-light" onclick="nalozi_body('predvajajSeznam');" >
+  Predvajaj seznam
+  </button>
+
+  </div>
+
 
 <div id="playdiv" class="container mt-5 bg-dark text-light">
 
