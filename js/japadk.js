@@ -141,11 +141,11 @@ function getBaseUrl(tip, url) {
 }
 
 function openLinkasklik(url) {
-    const a = document.createElement("a");
-    a.href = url;
-    a.target = "_blank";
-    a.rel = "noopener";
-    a.click();
+  const a = document.createElement("a");
+  a.href = url;
+  a.target = "_blank";
+  a.rel = "noopener";
+  a.click();
 }
 
 
@@ -153,21 +153,17 @@ function gFrameNav(arlinkliID) {
 
   timerZac = Date.now();
   timerOn = 1;
-/*
+//problemi z angular 
+  /*
   if (getBaseUrl(0, arlinki[arlinkliID][1]) === 'www.prettybarngood.com') {
-  linkpage = window.open('https://www.prettybarngood.com/sl/tutorials', "_blank");
-  
+    linkpage = window.open(arlinki[arlinkliID][1], "_blank",);
 
-
-
- setTimeout(function () {
- linkpage.location.href = arlinki[arlinkliID][1];
- }, 4000); // 1 sekunda
-
-
+    setTimeout(function () {
+      linkpage.location.href = arlinki[arlinkliID][1];
+    }, 1000); // 1 sekunda
   }
   else
-*/    
+*/
     linkpage = window.open(arlinki[arlinkliID][1], "_blank");
 }
 

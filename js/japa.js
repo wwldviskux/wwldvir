@@ -156,7 +156,7 @@ function prikazi_PListo(tip, divid) {
       for (vrstica = 0; vrstica < arlinki.length; vrstica++) {
         if (tmparr[vrsticar][0] === arlinki[vrstica][0]) {
           strtmp = strtmp + `
-        <p class="m-0 lh-base d-flex flex-column align-items-center bg-dark text-light" onclick="gFrameNav(${vrstica})">
+        <p class="m-0 lh-base d-flex flex-column align-items-center bg-dark text-light" onclick="gFrameNav(${vrstica});">
         <span class="fs-3 fw-bold CowBFont">${arlinki[vrstica][2]}</span>
         <span class="fs-7">${arlinki[vrstica][3]}</span>
         </p>
