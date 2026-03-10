@@ -381,7 +381,7 @@ function nalozi_body(par0) {
   </button>
 
   <button class="btn btn-outline-light" onclick="nalozi_body('predvajajSeznam');" >
-  Predvajaj seznam
+   <img src="img/favicon.png" alt="Start" class="btn-img-inner black-style btn-icon" >Predvajaj seznam
   </button>
 
   </div>
