@@ -73,11 +73,6 @@ body {
     z-index: 9999;
 }
 
-body {
-    padding-bottom: 80px;
-    /* višina gumba + malo zračnega prostora */
-}
-
 
 .btn-icon {
     height: 1.5em;
