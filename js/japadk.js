@@ -153,7 +153,7 @@ function gFrameNav(arlinkliID) {
 
   timerZac = Date.now();
   timerOn = 1;
-
+/*
   if (getBaseUrl(0, arlinki[arlinkliID][1]) === 'www.prettybarngood.com') {
   linkpage = window.open('https://www.prettybarngood.com/sl/tutorials', "_blank");
   
@@ -167,6 +167,7 @@ function gFrameNav(arlinkliID) {
 
   }
   else
+*/    
     linkpage = window.open(arlinki[arlinkliID][1], "_blank");
 }
 
