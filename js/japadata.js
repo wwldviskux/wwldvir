@@ -11,8 +11,8 @@ var APlesi =
       ["8", "https://www.prettybarngood.com/sl/tutorials/lay-low", "👢Lay low", "(Blake Shelton)"],
       ["8", "https://drive.google.com/file/d/1AY4DVaSDE8rnTNXLR_HMfuixFY9uRapk/view", "🎵Lay low", "Black Coffee(Silver and gold)"],
       ["9", "https://www.prettybarngood.com/sl/tutorials/buddy", "👢Buddy", "One step forward and two steps back (Desert rose band)"],
-      ["10", "https://www.prettybarngood.com/tutorials/dance-again", "👢Dance again", "Standin' still( The Clark Family Experience)"],
-      ["11", "https://www.prettybarngood.com/tutorials/chu-chu-train", "👢Chu chu train", "Baby likes to rock it ( The tractors)"],
+      ["10", "https://www.prettybarngood.com/sl/tutorials/dance-again", "👢Dance again", "Standin' still( The Clark Family Experience)"],
+      ["11", "https://www.prettybarngood.com/sl/tutorials/chu-chu-train", "👢Chu chu train", "Baby likes to rock it ( The tractors)"],
       ["12", "https://www.prettybarngood.com/sl/tutorials/achy-breaky-heart", "👢Achy breaky heart", "Achy breaky heart(Billy Ray Cyrus)"],
       ["13", "https://www.prettybarngood.com/tutorials/beautifull-day", "👢Beautifull day", "(Dave Sherif)"],
       ["14", "https://www.prettybarngood.com/sl/tutorials/born-to-be-great", "👢Born to be great", "Some town somewhere (Kenny Chesney)"],
@@ -20,16 +20,16 @@ var APlesi =
       ["16", "https://youtu.be/hBhW_phpGzk?t=212&autoplay=1", "🕺Lonely Drum", "(Aarona Goodvina)"],
       ["17", "https://youtu.be/i8O_jUdqlhU?t=4&autoplay=1", "🕺Heyday Tonight", "(Aarona Watsona)"],
       ["18", "https://youtu.be/v8z92QJaUPU?t=191&autoplay=1", "🕺Knockin' Boots", "(Luke Bryan)"],
-      ["19", "https://www.prettybarngood.com/de/tutorials/jr", "👢JR", "All You Need Is Me(Joey & Rory)"],
+      ["19", "https://www.prettybarngood.com/sl/tutorials/jr", "👢JR", "All You Need Is Me(Joey & Rory)"],
       ["19", "https://youtu.be/8Cpa74VeQzs?t=157&autoplay=1", "🕺JR", "All You Need Is Me(Joey & Rory)"],
       ["20", "https://www.prettybarngood.com/sl/tutorials/paris,-tennessee", "👢Paris, Tennessee", "Jérémy Souppart"],
 
-      ["21", "https://www.prettybarngood.com/tutorials/anything-for-love", "👢Anything for love", "Anything for love(James House)"],
+      ["21", "https://www.prettybarngood.com/sl/tutorials/anything-for-love", "👢Anything for love", "Anything for love(James House)"],
       ["21", "https://youtu.be/p-f5MT2bknQ?t=155&autoplay=1", "🕺Anything for love", "Anything for love(James House)"],
 
 
 
-      ["22", "https://www.prettybarngood.com/tutorials/touch-of-heaven", "👢Touch of heaven", "Heavens cried(Tony Ramey)"],
+      ["22", "https://www.prettybarngood.com/sl/tutorials/touch-of-heaven", "👢Touch of heaven", "Heavens cried(Tony Ramey)"],
 
 
       ["23", "https://youtu.be/uIcGroXU7N8?t=127&autoplay=1", "🕺Girl's gone wild", "Girl's gone wild(Joseph R. Francis)"],
@@ -38,10 +38,10 @@ var APlesi =
 
       ["25", "https://youtu.be/Q5ZXN7hOggc?t=3", "🕺Lalali", "This is Not Goodbye(Johnny Reid)"],
 
-      ["26", "https://www.prettybarngood.com/tutorials/thanks-a-lot", "👢Thanks a lot", "Heavens cried(Martina McBride)"],
+      ["26", "https://www.prettybarngood.com/sl/tutorials/thanks-a-lot", "👢Thanks a lot", "Heavens cried(Martina McBride)"],
       ["26", "https://youtu.be/SEFDFKbHU8o?t=165", "🕺📖Thanks a lot", "Heavens cried(Martina McBride)"],
 
-      ["27", "https://www.prettybarngood.com/tutorials/american-kids", "👢American kids", "American kids(Kenny Chesney)"],
+      ["27", "https://www.prettybarngood.com/sl/tutorials/american-kids", "👢American kids", "American kids(Kenny Chesney)"],
       ["27", "https://youtu.be/CzhTpzfJF7w?t=130"                    , "🕺📖American kids", "American kids(Kenny Chesney)"],
 
       ["28", "https://youtu.be/L502Rv5aCwM?t=133", "🕺Heads or Tails", "Heads Carolina(Tails California)"]          
@@ -90,19 +90,19 @@ var APlesi =
 
 
 
-,["42", "https://www.prettybarngood.com/tutorials/power", "👢Power", "Power(Ian Scott)"]
+,["42", "https://www.prettybarngood.com/sl/tutorials/power", "👢Power", "Power(Ian Scott)"]
 ,["42", "https://youtu.be/26EDiszBvks?t=195&autoplay=1", "🕺Power", "Power(Ian Scott)"]
 
 
 
 
 
-,["43", "https://www.prettybarngood.com/tutorials/colorado-girl", "👢Colorado girl", "Colorado Girl(The High Rollers)"]
+,["43", "https://www.prettybarngood.com/sl/tutorials/colorado-girl", "👢Colorado girl", "Colorado Girl(The High Rollers)"]
 ,["44", "https://youtu.be/7Qhjf8PHpxo?t=192&autoplay=1", "🕺Colorado girl", "Colorado Girl(The High Rollers)"]
 
 
 
-,["45", "https://www.prettybarngood.com/tutorials/pay-me-my-money-down", "👢Pay me my money down", "Pay me my money down(Bruce Springsteen)"]
+,["45", "https://www.prettybarngood.com/sl/tutorials/pay-me-my-money-down", "👢Pay me my money down", "Pay me my money down(Bruce Springsteen)"]
 
 
 ,["46", "https://www.youtube.com/watch?v=wNog5fk7Qx0&t=207s&autoplay=1", "🕺Toes", "-"]

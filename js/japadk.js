@@ -1,6 +1,6 @@
 
 var linkpage = null;
-var arlinki =[];
+var arlinki = [];
 var Randomarlinki = [];
 var RandomarlinkiAll = [];
 var strandom = null;
@@ -13,36 +13,36 @@ var timerOn = 0;
 
 function uredigrupdata(Tip) {
 
-Randomarlinki.length = 0;
-RandomarlinkiAll.length = 0;
+  Randomarlinki.length = 0;
+  RandomarlinkiAll.length = 0;
 
-for (vrstica = 0; vrstica < arlinki.length; vrstica++) {
-  obstaja = 0;
+  for (vrstica = 0; vrstica < arlinki.length; vrstica++) {
+    obstaja = 0;
 
-  arlinki[vrstica][2] = arlinki[vrstica][2].replace('👢', '<img src="https://www.prettybarngood.com/favicon.ico" style="height:1em; vertical-align:middle;">&nbsp');
+    arlinki[vrstica][2] = arlinki[vrstica][2].replace('👢', '<img src="https://www.prettybarngood.com/favicon.ico" style="height:1em; vertical-align:middle;">&nbsp');
 
 
-  for (rvrstica = 0; rvrstica < Randomarlinki.length; rvrstica++) {
-    if (Randomarlinki[rvrstica][0] == arlinki[vrstica][0])
-      obstaja = 1;
+    for (rvrstica = 0; rvrstica < Randomarlinki.length; rvrstica++) {
+      if (Randomarlinki[rvrstica][0] == arlinki[vrstica][0])
+        obstaja = 1;
+    }
+
+    if (obstaja == 0) {
+      /*
+      Randomarlinki[Randomarlinki.length] = arlinki[vrstica][0];
+      RandomarlinkiAll[RandomarlinkiAll.length] = arlinki[vrstica][0];
+      */
+      Randomarlinki.push([arlinki[vrstica][0], 0, 0, 0])
+      RandomarlinkiAll.push([arlinki[vrstica][0], 0, 0])
+    }
+
+
   }
 
-  if (obstaja == 0) {
-    /*
-    Randomarlinki[Randomarlinki.length] = arlinki[vrstica][0];
-    RandomarlinkiAll[RandomarlinkiAll.length] = arlinki[vrstica][0];
-    */
-    Randomarlinki.push([arlinki[vrstica][0], 0, 0, 0])
-    RandomarlinkiAll.push([arlinki[vrstica][0], 0, 0])
-  }
+  genrandomPlayL(5, 5, 0);
 
 
-}
-
-genrandomPlayL(5, 5, 0);
-
-
-x = 1;
+  x = 1;
 
 }
 
@@ -132,12 +132,42 @@ function hexToUtf(hex) {
 }
 
 
+function getBaseUrl(tip, url) {
+  let u = new URL(url);
+  if (tip == 1)
+    return u.protocol + "//" + u.host;
+  else
+    return u.host;
+}
+
+function openLinkasklik(url) {
+    const a = document.createElement("a");
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.click();
+}
+
+
 function gFrameNav(arlinkliID) {
 
   timerZac = Date.now();
   timerOn = 1;
 
-  linkpage = window.open(arlinki[arlinkliID][1], "_blank");
+  if (getBaseUrl(0, arlinki[arlinkliID][1]) === 'www.prettybarngood.com') {
+  linkpage = window.open('https://www.prettybarngood.com/sl/tutorials', "_blank");
+  
+
+
+
+ setTimeout(function () {
+ linkpage.location.href = arlinki[arlinkliID][1];
+ }, 4000); // 1 sekunda
+
+
+  }
+  else
+    linkpage = window.open(arlinki[arlinkliID][1], "_blank");
 }
 
 
@@ -180,6 +210,8 @@ function kontrolniStringAZ(input, length) {
 
   return result;
 }
+
+
 
 
 
