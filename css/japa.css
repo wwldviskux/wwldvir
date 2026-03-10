@@ -71,6 +71,7 @@ bodyxx {
   width: 100%;
   z-index: 9999;
 }
+
 body {
   padding-bottom: 80px; /* višina gumba + malo zračnega prostora */
 }

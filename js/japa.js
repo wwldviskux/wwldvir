@@ -183,7 +183,7 @@ function prikazi_PListo(tip, divid) {
 
     strtmp = `
 <div class="d-flex justify-content-center align-items-center vh-50">
-  <div class="p-4 bg-dark">
+  <div class="p-1 bg-dark">
   `;
 
 
