@@ -213,7 +213,7 @@ function prikazi_PListo(tip, divid) {
 
         if (stzapred == 1)
           strtmp = strtmp + `
-        <div class="fs-7 fw-bold bg-dark text-light">${stplesnv + 1}</div>
+        <div class="fs-7 fw-bold bg-dark text-light"><b>${stplesnv + 1}</b>/${tmparr.length-1}</div>
      `;
 
 
