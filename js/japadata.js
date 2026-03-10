@@ -2,7 +2,7 @@ var APlesi =
     [
       ["1", "https://www.prettybarngood.com/sl/tutorials/cotton-eye-joe", "👢Cotton eye Joe", "(Rednex)"],
       ["2", "https://www.prettybarngood.com/sl/tutorials/canadian-stomp", "👢Canadian stomp", "Any man of mine (Shania Twain)"],
-      ["3", "https://youtu.be/11b4uyf_S_g?t=18&autoplay=1", "✨Contry as can be", "(Brady Seal)"],
+      ["3", "https://youtu.be/11b4uyf_S_g?t=18&autoplay=1", "🕺Contry as can be", "(Brady Seal)"],
       ["4", "https://www.prettybarngood.com/sl/tutorials/lindy-shuffle", "👢Lindy shuffle", "I Need More Of You (Bellamyrother) "],
 
       ["5", "https://www.prettybarngood.com/sl/tutorials/boot-scootin-boogie", "👢Boot Scootin' Boogie", "Brooks and Dunn"],
@@ -87,19 +87,11 @@ var APlesi =
 
 ,["41", "https://youtu.be/fKqBn6P6HnQ?t=24", "🕺Twenty Two", "You Look Like You Love Me (Ella Langley)"]
 
-
-
-
 ,["42", "https://www.prettybarngood.com/sl/tutorials/power", "👢Power", "Power(Ian Scott)"]
 ,["42", "https://youtu.be/26EDiszBvks?t=195&autoplay=1", "🕺Power", "Power(Ian Scott)"]
 
-
-
-
-
 ,["43", "https://www.prettybarngood.com/sl/tutorials/colorado-girl", "👢Colorado girl", "Colorado Girl(The High Rollers)"]
 ,["44", "https://youtu.be/7Qhjf8PHpxo?t=192&autoplay=1", "🕺Colorado girl", "Colorado Girl(The High Rollers)"]
-
 
 
 ,["45", "https://www.prettybarngood.com/sl/tutorials/pay-me-my-money-down", "👢Pay me my money down", "Pay me my money down(Bruce Springsteen)"]
@@ -115,12 +107,12 @@ var APlesi =
 
 
 ,["48", "https://youtu.be/xClTUeZYnz0?t=167&autoplay=1", "🕺Ghost town", "-"]
-,["48", "https://youtu.be/kddUHJvJoig?t=119&autoplay=1", "Ghost town", "-"]
-,["48", "https://youtu.be/kddUHJvJoig?t=67&autoplay=1", "📖Ghost town", "-"]
+,["48", "https://youtu.be/kddUHJvJoig?t=119&autoplay=1", "🕺Ghost town", "-"]
+
 
 
 ,["49", "https://youtu.be/4Uy6mhubXuo?t=77", "🕺Black coffe",   "Black Coffee(Lacy J. Dalton)"]
-,["49", "https://www.youtube.com/watch?v=4Uy6mhubXuo&t=7s", "🕺📖Black coffe",   "Black Coffee(Lacy J. Dalton)"]
+
 
 
 ,["50", "https://www.prettybarngood.com/sl/tutorials/16-bars", "👢16 bars",   "16 bars(Connor Christian & Southern Gothic)"]

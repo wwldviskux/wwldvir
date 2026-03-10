@@ -182,7 +182,7 @@ function prikazi_PListo(tip, divid) {
   if (tip == 10) {
 
     strtmp = `
-<div class="d-flex justify-content-center align-items-center vh-70">
+<div class="d-flex justify-content-center align-items-center vh-50">
   <div class="p-4 bg-dark">
   `;
 
