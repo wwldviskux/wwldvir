@@ -55,30 +55,49 @@
 }
 
 
-bodyxx {
+body {
     font-family: "CowboyOutlawTextured", serif !important;
 }
 
-:rootxx {
+:root {
     --bs-body-font-family: "CowboyOutlaw", serif !important;
 }
 
 
 .bottom-buttons {
-  position: fixed;
-  bottom: calc(env(safe-area-inset-bottom, 0) + 80px); /* +10px zgoraj od spodnjega roba */
-  left: 0;
-  width: 100%;
-  z-index: 9999;
+    position: fixed;
+    bottom: calc(env(safe-area-inset-bottom, 0) + 80px);
+    /* +10px zgoraj od spodnjega roba */
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 body {
-  padding-bottom: 80px; /* višina gumba + malo zračnega prostora */
+    padding-bottom: 80px;
+    /* višina gumba + malo zračnega prostora */
 }
 
 
-.btn-icon{
-  height:1.5em;
-  margin-right:6px;
-  vertical-align:middle;
+.btn-icon {
+    height: 1.5em;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.bg-dark-s {
+    background-color: #3b2f2f; /* temno rjava, malce svetlejša od btn-dark */
+    /* temno rjava, malce svetlejša */
+}
+
+
+.btn-dark-s {
+    background-color: #3b2f2f; /* temno rjava, malce svetlejša od btn-dark */
+    color: #fff; /* bela pisava za kontrast */
+    border: 1px solid #2e2424; /* rahlo temnejša meja */
+}
+
+.btn-dark-s:hover {
+    background-color: #3b2f2f; /* temno rjava, malce svetlejša od btn-dark */
+    /* svetlejši odtenek ob hover */
 }

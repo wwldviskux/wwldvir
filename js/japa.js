@@ -235,10 +235,10 @@ function prikazi_PListo(tip, divid) {
 
               strtmpbot = `
 <div class="bottom-buttons d-flex justify-content-between px-3 bg-dark p-3">
-  <button class="btn btn-outline-light" onclick="runPlay(0,${vrsticar},${vrstica})">
+  <button class="btn btn-dark-s btn-outline-light" onclick="runPlay(0,${vrsticar},${vrstica})">
     Preskoči
   </button>
-  <button class="btn btn-outline-light" onclick="runPlay(1,${vrsticar},${vrstica})">
+  <button class="btn btn-dark-s btn-outline-light" onclick="runPlay(1,${vrsticar},${vrstica})">
     Predvajaj
   </button>
 </div>
@@ -376,11 +376,11 @@ function nalozi_body(par0) {
 
 <div class="d-flex justify-content-between px-3 bg-dark p-3">
 
-  <button class="btn btn-outline-light" onclick="prikazi_PListo(1,'playdiv')">
+  <button class="btn btn-dark-s btn-outline-light" onclick="prikazi_PListo(1,'playdiv')">
    <img src="img/kocka.gif" alt="Start" class="btn-img-inner black-style btn-icon" > Kreiraj
   </button>
 
-  <button class="btn btn-outline-light" onclick="nalozi_body('predvajajSeznam');" >
+  <button class="btn btn-dark-s btn-outline-light" onclick="nalozi_body('predvajajSeznam');" >
    <img src="img/favicon.png" alt="Start" class="btn-img-inner black-style btn-icon" >Predvajaj seznam
   </button>
 
