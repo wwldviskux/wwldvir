@@ -377,7 +377,7 @@ function nalozi_body(par0) {
 <div class="d-flex justify-content-between px-3 bg-dark p-3">
 
   <button class="btn btn-outline-light" onclick="prikazi_PListo(1,'playdiv')">
-   <img src="img/kocka.gif" alt="Start" class="btn-img-inner black-style btn-icon" style="width:30px;height:30px;"> Kreiraj
+   <img src="img/kocka.gif" alt="Start" class="btn-img-inner black-style btn-icon" > Kreiraj
   </button>
 
   <button class="btn btn-outline-light" onclick="nalozi_body('predvajajSeznam');" >
