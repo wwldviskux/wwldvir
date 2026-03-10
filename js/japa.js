@@ -234,16 +234,14 @@ function prikazi_PListo(tip, divid) {
 
 
               strtmpbot = `
-  <div class="d-flex justify-content-between px-3 bg-dark p-3">
-    <button class="btn btn-outline-light"
-            onclick="runPlay(0,${vrsticar},${vrstica})">
-      Preskoči
-    </button>
-    <button class="btn btn-outline-light"
-            onclick="runPlay(1,${vrsticar},${vrstica})">
-      Predvajaj
-    </button>
-  </div>
+<div class="bottom-buttons d-flex justify-content-between px-3 bg-dark p-3">
+  <button class="btn btn-outline-light" onclick="runPlay(0,${vrsticar},${vrstica})">
+    Preskoči
+  </button>
+  <button class="btn btn-outline-light" onclick="runPlay(1,${vrsticar},${vrstica})">
+    Predvajaj
+  </button>
+</div>
               `;
 
             }
@@ -500,7 +498,7 @@ function GrupaSetData(idgrupe) {
 function initIzbIzPar(Par0) {
   const params = new URLSearchParams(window.location.search);
   let pl = params.get('PL');
-//  pl = "xbncdnvrghi" + '-' + "byqrxthghi"+'-'+"bncdnvrghi";
+  //  pl = "xbncdnvrghi" + '-' + "byqrxthghi"+'-'+"bncdnvrghi";
 
 
 
@@ -525,9 +523,9 @@ function initIzbIzPar(Par0) {
 
     for (vrstica = 0; vrstica < APgrupe.length; vrstica++) {
       if (APgrupe[vrstica][1] === plArray[vpl]) {
-        
+
         strhtm += `<li><a class="dropdown-item" href="#" onclick="GrupaSetData(${vrstica})">${APgrupe[vrstica][0]}</a></li>`;
-        
+
         if (jeprvi < 0)
           jeprvi = vrstica;
       }
@@ -537,8 +535,8 @@ function initIzbIzPar(Par0) {
 
   document.getElementById('IzbGrupa').innerHTML = strhtm;
 
-  if (jeprvi>=0)
-  GrupaSetData(jeprvi);
+  if (jeprvi >= 0)
+    GrupaSetData(jeprvi);
 
 
 }

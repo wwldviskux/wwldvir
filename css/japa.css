@@ -62,3 +62,15 @@ bodyxx {
 :rootxx {
     --bs-body-font-family: "CowboyOutlaw", serif !important;
 }
+
+
+.bottom-buttons {
+  position: fixed;
+  bottom: calc(env(safe-area-inset-bottom, 0) + 80px); /* +10px zgoraj od spodnjega roba */
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+body {
+  padding-bottom: 80px; /* višina gumba + malo zračnega prostora */
+}
