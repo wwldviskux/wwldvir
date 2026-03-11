@@ -149,11 +149,12 @@ strtmp = `
 for (let vrsticar = 0; vrsticar < tmparr.length; vrsticar++) {
 
 strtmp += `
-<div class="col-12 col-md-6 col-lg-4">
+<div class="col-12 col-md-6 col-lg-4 ">
   <div class="card h-100 bg-dark border-secondary shadow-sm">
     <div class="card-body p-2 text-center">
-
-      <div class="small fw-bold mb-1">${vrsticar + 1}</div>
+      <div class="small fw-bold mb-1 text-start" style="color: #634f4f;">
+      ${vrsticar + 1}
+      </div>
       <div class="text-muted">
 `;
 
