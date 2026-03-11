@@ -126,8 +126,8 @@ var APlesi =
 
 
 var APgrupe =[
-['🕺Vir četrtek 7.0','']
-,['🕺JaPa'          ,'']    
+['🕺Vir četrtek 7.0','bncdnvrghi']
+,['🕺JaPa'          ,'byqrxthghi']    
 ] ;   
 
 

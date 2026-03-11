@@ -213,7 +213,7 @@ function prikazi_PListo(tip, divid) {
 
         if (stzapred == 1)
           strtmp = strtmp + `
-        <div class="fs-7 fw-bold bg-dark text-light"><b>${stplesnv + 1}</b>/${tmparr.length-1}</div>
+        <div class="fs-7 fw-bold bg-dark text-light"><b>${stplesnv + 1}</b>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;${tmparr.length}</div>
      `;
 
 
@@ -467,6 +467,7 @@ function initIzbIzPar(Par0) {
   }
 
   for (vrstica = 0; vrstica < APgrupe.length; vrstica++) {
+    if (APgrupe[vrstica][1]==='')
     APgrupe[vrstica][1] = kontrolniStringAZ(APgrupe[vrstica][0], 10);
   }
 
