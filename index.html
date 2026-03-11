@@ -23,50 +23,48 @@
     <script src="js/japa.js"></script>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-s fixed-top CowBFont">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark-s fixed-top CowBFont">
 
-        <div class="dropdown">
-            <button class="btn btn-dark-s dropdown-toggle border-0" type="button" data-bs-toggle="dropdown">
-                <span id="Izbskupina" style="margin-left:10px; font-weight:normal;">-</span>
-            </button>
-
-            <ul id="IzbGrupa" class="dropdown-menu dropdown-menu-dark border-0 bg-dark-s">
-                <li><a class="dropdown-item" href="#">-</a></li>
-            </ul>
-
-            <span id="PlayTime" style="margin-left:10px; font-weight:normal;"></span>
-        </div>
-
-        <button class="navbar-toggler btn-dark-s" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <div class="dropdown">
+        <button class="btn btn-dark-s dropdown-toggle border-0" type="button" data-bs-toggle="dropdown">
+            <span id="Izbskupina" style="margin-left:10px; font-weight:normal;">-</span>
         </button>
 
+        <ul id="IzbGrupa" class="dropdown-menu dropdown-menu-dark border-0 bg-dark-s">
+            <li><a class="dropdown-item" href="#">-</a></li>
+        </ul>
 
+        <span id="PlayTime" style="margin-left:10px; font-weight:normal;"></span>
+    </div>
 
-        <div class="collapse navbar-collapse bg-dark-s py-1" id="navbarNav">
-            <ul class="navbar-nav ms-auto gap-4 ps-0">
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#" onclick="nalozi_body('SeznamPlesov');">
-                        <i class="bi bi-star-fill me-2"></i>Seznam plesov
-                    </a>
-                </li>
+    <button class="navbar-toggler btn-dark-s" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#" onclick="nalozi_body('UstvariSeznam');">
-                        <i class="bi bi-star-fill me-2"></i>Ustvari seznam predvajanja
-                    </a>
-                </li>
+    <div class="collapse navbar-collapse bg-dark-s py-1" id="navbarNav">
+        <ul class="navbar-nav gap-4 ps-0 ms-4 ms-lg-auto me-5">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#" onclick="nalozi_body('SeznamPlesov');">
+                    <i class="bi bi-star-fill me-2"></i>Seznam plesov
+                </a>
+            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#" onclick="nalozi_body('predvajajSeznam');">
-                        <i class="bi bi-star-fill me-2"></i>Predvajaj seznam
-                    </a>
-                </li>
-            </ul>
-        </div>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#" onclick="nalozi_body('UstvariSeznam');">
+                    <i class="bi bi-star-fill me-2"></i>Ustvari seznam predvajanja
+                </a>
+            </li>
 
-    </nav>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#" onclick="nalozi_body('predvajajSeznam');">
+                    <i class="bi bi-star-fill me-2"></i>Predvajaj seznam
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</nav>
 
 
     <!-- Main Content -->
