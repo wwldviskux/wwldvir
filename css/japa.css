@@ -88,7 +88,7 @@ body {
 .bg-dark-s {
     background-color: #3b2f2f; /* temno rjava, malce svetlejša od btn-dark */
     /* temno rjava, malce svetlejša */
-    font-family: "CowboyOutlawTextured", sans-serif !important;
+    font-family: "CowboyOutlawTextured", serif !important;
 }
 
 
@@ -96,14 +96,14 @@ body {
     background-color: #3b2f2f; /* temno rjava, malce svetlejša od btn-dark */
     color: #fff; /* bela pisava za kontrast */
     border: 1px solid #2e2424; /* rahlo temnejša meja */
-    font-family: "CowboyOutlawTextured", sans-serif !important;
+    font-family: "CowboyOutlawTextured", serif !important;
 }
 
 .btn-dark-s:hover {
     background-color: #634f4f; /* temno rjava, malce svetlejša od btn-dark */
     color: #fff; /* bela pisava za kontrast */
     /* svetlejši odtenek ob hover */
-    font-family: "CowboyOutlawTextured", sans-serif !important;
+    font-family: "CowboyOutlawTextured", serif !important;
 }
 
 
@@ -111,5 +111,5 @@ body {
     background-color:  #634f4f;
     color: #fff; /* bela pisava za kontrast */
     /* svetlejši odtenek ob hover */
-    font-family: "CowboyOutlawTextured", sans-serif !important;
+    font-family: "CowboyOutlawTextured", serif !important;
 }
