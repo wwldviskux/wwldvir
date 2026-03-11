@@ -58,11 +58,11 @@
     font-family: "CowboyOutlawTextured", sans-serif !important;
 }
 
-/*
+
 body {
-    font-family: "CowboyOutlawTextured", sans-serif !important;
+    padding-top: 56px;
 }
-*/
+
 /*
 :root {
     --bs-body-font-family: "CowboyOutlawTextured", sans-serif !important;

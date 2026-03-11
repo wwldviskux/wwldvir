@@ -123,196 +123,193 @@ function runPlay(tip, vrsticar, vrstica) {
 
 
 function prikazi_PListo(tip, divid) {
-  let strtmp = '';
-  let strtmpbot = '';
-  let tmparr = [];
+
+let strtmp = '';
+let strtmpbot = '';
+let tmparr = [];
+
+if (tip == 1) {
+  genrandomPlayL(stStari, stNovi, zdruziActive);
+}
+
+tmparr = (tip == 0) ? RandomarlinkiAll : Randomarlinki;
 
 
-  if (tip == 1) {
-    genrandomPlayL(stStari, stNovi, zdruziActive);
-  }
+/* =========================
+   GRID PRIKAZ
+========================= */
 
-  if (tip == 0)
-    tmparr = RandomarlinkiAll;
-  else
-    tmparr = Randomarlinki;
+if (tip < 10) {
 
-
-  if (tip < 10) {
-    strtmp = `
-<div class="container-fluid">
-  <div class="row g-2">
-    `;
-
-    for (vrsticar = 0; vrsticar < tmparr.length; vrsticar++) {
-
-      strtmp = strtmp + `
-     <div class="col-md-4 bg-dark text-light">
-      <div class="card shadow-sm rounded-2 p-1 h-100 bg-dark text-light">
-        <div class="fs-7 fw-bold bg-dark text-light">${vrsticar + 1}</div>
-         <div class="text-muted">
-     `;
-
-      for (vrstica = 0; vrstica < arlinki.length; vrstica++) {
-        if (tmparr[vrsticar][0] === arlinki[vrstica][0]) {
-          strtmp = strtmp + `
-        <p class="m-0 lh-base d-flex flex-column align-items-center bg-dark text-light" onclick="gFrameNav(${vrstica});">
-        <span class="fs-3 fw-bold CowBFont">${arlinki[vrstica][2]}</span>
-        <span class="fs-7">${arlinki[vrstica][3]}</span>
-        </p>
-      `;
-        }
-      }
-
-      strtmp = strtmp + `
-         </div>
-      </div>
-    </div>
+strtmp = `
+<div class="container-fluid text-light">
+  <div class="row g-3">
 `;
 
+for (let vrsticar = 0; vrsticar < tmparr.length; vrsticar++) {
 
-    }
-    strtmp = strtmp + `
-  </div >
-</div >
-        `;
-  }
+strtmp += `
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card h-100 bg-dark border-secondary shadow-sm">
+    <div class="card-body p-2 text-center">
 
+      <div class="small fw-bold mb-1">${vrsticar + 1}</div>
+      <div class="text-muted">
+`;
 
-  if (tip == 10) {
+for (let vrstica = 0; vrstica < arlinki.length; vrstica++) {
 
-    strtmp = `
-<div class="d-flex justify-content-center align-items-center vh-50">
-  <div class="p-1 bg-dark">
-  `;
+if (tmparr[vrsticar][0] === arlinki[vrstica][0]) {
 
+strtmp += `
+<p class="mb-0 lh-sm d-flex flex-column align-items-center"
+   role="button"
+   onclick="gFrameNav(${vrstica});">
 
+  <span class="fs-4 fw-bold CowBFont">${arlinki[vrstica][2]}</span>
+  <span class="small">${arlinki[vrstica][3]}</span>
 
-    stzapred = 0
+</p>
+`;
 
-    vfs7 = 'fs-7';
-    vfs3 = 'fs-1 fw-bold';
-    vtextlight = 'text-white';
-    stplesnv = 0;
-    for (vrsticar = 0; vrsticar < tmparr.length; vrsticar++) {
+break;
+}
+}
 
-      if (tmparr[vrsticar][1] == 1)
-        stplesnv++;
-
-      if (tmparr[vrsticar][1] == 0 && tmparr[vrsticar][2] == 0)
-        stzapred++;
-
-      if (stzapred > 0) {
-
-        if (stzapred == 2) {
-          vfs7 = 'fs-8';
-          vfs3 = 'fs-4';
-          vtextlight = 'text-siva';
-
-        }
-
-        if (stzapred == 1)
-          strtmp = strtmp + `
-        <div class="fs-7 fw-bold bg-dark text-light"><b>${stplesnv + 1}</b>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;${tmparr.length}</div>
-     `;
-
-
-        strtmp = strtmp + `
-         <div class="text-muted">
-     `;
-
-
-        for (vrstica = 0; vrstica < arlinki.length; vrstica++) {
-          if (tmparr[vrsticar][0] === arlinki[vrstica][0]) {
-            strtmp = strtmp + `
-        <p class="m-0 lh-base d-flex flex-column align-items-center bg-dark ${vtextlight}"`
-
-            if (stzapred == 1) {
-              strtmp = strtmp + `
-        onclick="runPlay(1,${vrsticar},${vrstica})"
-        `;
-
-
-              strtmpbot = `
-<div class="bottom-buttons d-flex justify-content-between px-3 bg-dark p-3">
-  <button class="btn btn-dark-s btn-outline-light" onclick="runPlay(0,${vrsticar},${vrstica})">
-    Preskoči
-  </button>
-  <button class="btn btn-dark-s btn-outline-light" onclick="runPlay(1,${vrsticar},${vrstica})">
-    Predvajaj
-  </button>
+strtmp += `
+      </div>
+    </div>
+  </div>
 </div>
-              `;
+`;
 
-            }
+}
 
-            strtmp = strtmp + `
-        >
-        <span class="${vfs3}  fw-bold CowBFont">${arlinki[vrstica][2]}</span>
-        <span class="${vfs7}">${arlinki[vrstica][3]}</span>
-        <span class="${vfs7}">&nbsp;</span>
-        <span class="${vfs7}">&nbsp;</span>
-        </p>
-      `;
+strtmp += `
+  </div>
+</div>
+`;
+}
 
 
+/* =========================
+   PLAY MODE
+========================= */
+
+if (tip == 10) {
+
+strtmp = `
+<div class="d-flex justify-content-center align-items-center" style="min-height:50vh;">
+  <div class="p-2 bg-dark text-light text-center">
+`;
+
+let stzapred = 0;
+let vfs7 = 'small';
+let vfs3 = 'display-6 fw-bold';
+let vtextlight = 'text-white';
+
+let stplesnv = 0;
+
+for (let vrsticar = 0; vrsticar < tmparr.length; vrsticar++) {
+
+if (tmparr[vrsticar][1] == 1)
+  stplesnv++;
+
+if (tmparr[vrsticar][1] == 0 && tmparr[vrsticar][2] == 0)
+  stzapred++;
+
+if (stzapred > 0) {
+
+if (stzapred == 2) {
+  vfs7 = 'small';
+  vfs3 = 'fs-4';
+  vtextlight = 'text-secondary';
+}
+
+if (stzapred == 1) {
+
+strtmp += `
+<div class="small fw-bold mb-2">
+<b>${stplesnv + 1}</b>
+&nbsp;&nbsp;/&nbsp;&nbsp;
+${tmparr.length}
+</div>
+`;
+}
+
+strtmp += `<div>`;
 
 
+for (let vrstica = 0; vrstica < arlinki.length; vrstica++) {
+
+if (tmparr[vrsticar][0] === arlinki[vrstica][0]) {
+
+strtmp += `
+<p class="mb-0 d-flex flex-column align-items-center ${vtextlight}"
+`;
+
+if (stzapred == 1) {
+
+strtmp += `
+onclick="runPlay(1,${vrsticar},${vrstica})"
+`;
+
+strtmpbot = `
+<div class="d-flex justify-content-between p-3 bg-dark fixed-bottom">
+
+<button class="btn btn-outline-light"
+onclick="runPlay(0,${vrsticar},${vrstica})">
+Preskoči
+</button>
+
+<button class="btn btn-outline-light"
+onclick="runPlay(1,${vrsticar},${vrstica})">
+Predvajaj
+</button>
+
+</div>
+`;
+}
+
+strtmp += `>
+
+<span class="${vfs3} CowBFont">${arlinki[vrstica][2]}</span>
+<span class="${vfs7}">${arlinki[vrstica][3]}</span>
+<span class="${vfs7}">&nbsp;</span>
+<span class="${vfs7}">&nbsp;</span>
+
+</p>
+`;
+
+break;
+}
+}
+
+strtmp += `</div>`;
+
+if (stzapred == 2)
+  break;
+
+}
+}
+
+strtmp += `
+  </div>
+</div>
+`;
+
+strtmp += strtmpbot;
+
+}
 
 
+/* =========================
+   OUTPUT
+========================= */
 
-
-
-            break;
-          }
-        }
-
-
-        strtmp = strtmp + `
-         </div>
-    `;
-
-        if (stzapred == 2)
-          break;
-
-
-      }
-
-
-
-    }
-
-
-
-
-    strtmp = strtmp + `
-      </div >
-    </div >
-            `;
-
-
-    strtmp = strtmp + strtmpbot;
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  if (divid != '')
-    document.getElementById(divid).innerHTML = strtmp
+if (divid != '') {
+document.getElementById(divid).innerHTML = strtmp;
+}
 
 }
 
@@ -333,75 +330,108 @@ function nalozi_body(par0) {
 
 
   if (par0 == 'UstvariSeznam') {
-    document.getElementById('bodydiv').innerHTML = `
-<div class="container bg-dark-s pt-0">
+document.getElementById('bodydiv').innerHTML = `
+<div class="container bg-dark-s pt-3 text-light">
 
   <!-- STARI -->
-  <div data-bs-theme="dark" class="mb-4 pt-3">
-    <label class="form-label">Starejši plesi</label>
-    <div class="row align-items-center">
-      <div class="col">
-        <input type="range" class="form-range" id="stariRange" min="0" max="100" value="50" onchange="KreSezOsv('stariRange')">
+  <div class="mb-4">
+    <label class="form-label mb-2">Starejši plesi</label>
+
+    <div class="row align-items-center g-2">
+      <div class="col-9">
+        <input type="range"
+               class="form-range"
+               id="stariRange"
+               min="0"
+               max="100"
+               value="50"
+               onchange="KreSezOsv('stariRange')">
       </div>
+
       <div class="col-3">
-        <input type="number" class="form-control bg-dark-s text-light border-light"
-               id="stariNumber" min="0" max="100" value="0" onchange="KreSezOsv('stariNumber')">
+        <input type="number"
+               class="form-control bg-dark-s text-light border-light"
+               id="stariNumber"
+               min="0"
+               max="100"
+               value="0"
+               onchange="KreSezOsv('stariNumber')">
       </div>
     </div>
   </div>
 
-  <!-- ZDRUŽI (custom icon checkbox) -->
+  <!-- ZDRUŽI -->
   <div class="mb-4">
-    <div class="d-flex align-items-center gap-2" style="cursor:pointer;" onclick="KreSezOsv('zdruziIcon')">
+    <div class="d-flex align-items-center gap-2 user-select-none"
+         role="button"
+         onclick="KreSezOsv('zdruziIcon')">
+
       <i id="zdruziIcon" class="bi bi-circle text-secondary fs-4"></i>
       <span>Združi in prikaži v naključnem vrstnem redu</span>
+
     </div>
   </div>
 
   <!-- NOVO -->
-  <div data-bs-theme="dark" class="mb-4">
-    <label class="form-label">Novejši plesi</label>
-    <div class="row align-items-center">
-      <div class="col">
-        <input type="range" class="form-range"  id="novoRange" min="0" max="100" value="50" onchange="KreSezOsv('novoRange')" >
+  <div class="mb-4">
+    <label class="form-label mb-2">Novejši plesi</label>
+
+    <div class="row align-items-center g-2">
+      <div class="col-9">
+        <input type="range"
+               class="form-range"
+               id="novoRange"
+               min="0"
+               max="100"
+               value="50"
+               onchange="KreSezOsv('novoRange')">
       </div>
+
       <div class="col-3">
-        <input type="number" class="form-control bg-dark-s text-light border-light"
-               id="novoNumber" min="0" max="100" value="0" onchange="KreSezOsv('novoNumber')">
+        <input type="number"
+               class="form-control bg-dark-s text-light border-light"
+               id="novoNumber"
+               min="0"
+               max="100"
+               value="0"
+               onchange="KreSezOsv('novoNumber')">
       </div>
     </div>
   </div>
 
+  <!-- GUMBI -->
+  <div class="d-flex justify-content-between px-3 pt-3 pb-3">
 
+    <button class="btn btn-outline-light"
+            onclick="prikazi_PListo(1,'playdiv')">
 
-<div class="d-flex justify-content-between px-3 bg-dark-s pt-4 pb-3">
+      <img src="img/kocka.gif"
+           alt="Start"
+           class="btn-img-inner black-style btn-icon">
+      Kreiraj
+    </button>
 
-  <button class="btn btn-dark-s btn-outline-light" onclick="prikazi_PListo(1,'playdiv')">
-   <img src="img/kocka.gif" alt="Start" class="btn-img-inner black-style btn-icon" > Kreiraj
-  </button>
+    <button class="btn btn-outline-light"
+            onclick="nalozi_body('predvajajSeznam');">
 
-  <button class="btn btn-dark-s btn-outline-light" onclick="nalozi_body('predvajajSeznam');" >
-   <img src="img/favicon.png" alt="Start" class="btn-img-inner black-style btn-icon" >Predvajaj seznam
-  </button>
+      <img src="img/favicon.png"
+           alt="Start"
+           class="btn-img-inner black-style btn-icon">
+      Predvajaj seznam
+    </button>
 
   </div>
 
 </div>
-<div id="playdiv" class="container mt-5 bg-dark text-light">
 
-
+<div id="playdiv" class="container mt-4 bg-dark text-light">
 </div>
+`;
 
-
-
-
-    `;
-
-    KreSezOsvAkt = 1;
-    KreSezOsv('');
-    return 1
-  }
-
+KreSezOsvAkt = 1;
+KreSezOsv('');
+return 1
+}
 
 
   return 0
