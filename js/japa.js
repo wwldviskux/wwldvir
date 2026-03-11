@@ -334,17 +334,17 @@ function nalozi_body(par0) {
 
   if (par0 == 'UstvariSeznam') {
     document.getElementById('bodydiv').innerHTML = `
-<div class="container">
+<div class="container bg-dark-s pt-0">
 
   <!-- STARI -->
-  <div data-bs-theme="dark" class="mb-4">
+  <div data-bs-theme="dark" class="mb-4 pt-3">
     <label class="form-label">Starejši plesi</label>
     <div class="row align-items-center">
       <div class="col">
         <input type="range" class="form-range" id="stariRange" min="0" max="100" value="50" onchange="KreSezOsv('stariRange')">
       </div>
       <div class="col-3">
-        <input type="number" class="form-control bg-dark text-light border-light"
+        <input type="number" class="form-control bg-dark-s text-light border-light"
                id="stariNumber" min="0" max="100" value="0" onchange="KreSezOsv('stariNumber')">
       </div>
     </div>
@@ -366,7 +366,7 @@ function nalozi_body(par0) {
         <input type="range" class="form-range"  id="novoRange" min="0" max="100" value="50" onchange="KreSezOsv('novoRange')" >
       </div>
       <div class="col-3">
-        <input type="number" class="form-control bg-dark text-light border-light"
+        <input type="number" class="form-control bg-dark-s text-light border-light"
                id="novoNumber" min="0" max="100" value="0" onchange="KreSezOsv('novoNumber')">
       </div>
     </div>
@@ -374,7 +374,7 @@ function nalozi_body(par0) {
 
 
 
-<div class="d-flex justify-content-between px-3 bg-dark p-3">
+<div class="d-flex justify-content-between px-3 bg-dark-s pt-4 pb-3">
 
   <button class="btn btn-dark-s btn-outline-light" onclick="prikazi_PListo(1,'playdiv')">
    <img src="img/kocka.gif" alt="Start" class="btn-img-inner black-style btn-icon" > Kreiraj
@@ -386,7 +386,7 @@ function nalozi_body(par0) {
 
   </div>
 
-
+</div>
 <div id="playdiv" class="container mt-5 bg-dark text-light">
 
 
@@ -394,7 +394,7 @@ function nalozi_body(par0) {
 
 
 
-</div>
+
     `;
 
     KreSezOsvAkt = 1;

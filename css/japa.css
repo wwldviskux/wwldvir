@@ -1,3 +1,7 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+*/
+
 .black-style {
     filter: grayscale(100%);
 }
@@ -51,18 +55,19 @@
 }
 
 .CowBFont {
-    font-family: "CowboyOutlawTextured", serif !important;
+    font-family: "CowboyOutlawTextured", sans-serif !important;
 }
 
-
+/*
 body {
-    font-family: "CowboyOutlawTextured", serif !important;
+    font-family: "CowboyOutlawTextured", sans-serif !important;
 }
-
+*/
+/*
 :root {
-    --bs-body-font-family: "CowboyOutlaw", serif !important;
+    --bs-body-font-family: "CowboyOutlawTextured", sans-serif !important;
 }
-
+*/
 
 .bottom-buttons {
     position: fixed;
@@ -75,7 +80,7 @@ body {
 
 
 .btn-icon {
-    height: 1.5em;
+    height: 1.8em;
     margin-right: 6px;
     vertical-align: middle;
 }
@@ -83,6 +88,7 @@ body {
 .bg-dark-s {
     background-color: #3b2f2f; /* temno rjava, malce svetlejša od btn-dark */
     /* temno rjava, malce svetlejša */
+    font-family: "CowboyOutlawTextured", sans-serif !important;
 }
 
 
@@ -90,9 +96,20 @@ body {
     background-color: #3b2f2f; /* temno rjava, malce svetlejša od btn-dark */
     color: #fff; /* bela pisava za kontrast */
     border: 1px solid #2e2424; /* rahlo temnejša meja */
+    font-family: "CowboyOutlawTextured", sans-serif !important;
 }
 
 .btn-dark-s:hover {
-    background-color: #3b2f2f; /* temno rjava, malce svetlejša od btn-dark */
+    background-color: #634f4f; /* temno rjava, malce svetlejša od btn-dark */
+    color: #fff; /* bela pisava za kontrast */
     /* svetlejši odtenek ob hover */
+    font-family: "CowboyOutlawTextured", sans-serif !important;
+}
+
+
+.bg-dark-s:focus {
+    background-color:  #634f4f;
+    color: #fff; /* bela pisava za kontrast */
+    /* svetlejši odtenek ob hover */
+    font-family: "CowboyOutlawTextured", sans-serif !important;
 }
