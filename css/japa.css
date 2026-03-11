@@ -86,30 +86,54 @@ body {
 }
 
 .bg-dark-s {
-    background-color: #3b2f2f; /* temno rjava, malce svetlejša od btn-dark */
+    background-color: #3b2f2f;
+    /* temno rjava, malce svetlejša od btn-dark */
     /* temno rjava, malce svetlejša */
     font-family: "CowboyOutlawTextured", serif !important;
 }
 
 
 .btn-dark-s {
-    background-color: #3b2f2f; /* temno rjava, malce svetlejša od btn-dark */
-    color: #fff; /* bela pisava za kontrast */
-    border: 1px solid #2e2424; /* rahlo temnejša meja */
+    background-color: #3b2f2f;
+    /* temno rjava, malce svetlejša od btn-dark */
+    color: #fff;
+    /* bela pisava za kontrast */
+    border: 1px solid #2e2424;
+    /* rahlo temnejša meja */
     font-family: "CowboyOutlawTextured", serif !important;
+    border: 1px solid #634f4f !important;
+    /* bela obroba */
+    outline: none !important;
+    /* bela obroba */
 }
 
 .btn-dark-s:hover {
-    background-color: #634f4f; /* temno rjava, malce svetlejša od btn-dark */
-    color: #fff; /* bela pisava za kontrast */
+    background-color: #634f4f;
+    /* temno rjava, malce svetlejša od btn-dark */
+    color: #fff;
+    /* bela pisava za kontrast */
     /* svetlejši odtenek ob hover */
     font-family: "CowboyOutlawTextured", serif !important;
+    border: 1px solid #634f4f !important;
+    /* bela obroba */
+    outline: none !important;
+    /* bela obroba */
 }
 
 
 .bg-dark-s:focus {
-    background-color:  #634f4f;
-    color: #fff; /* bela pisava za kontrast */
+    background-color: #634f4f;
+    color: #fff;
+    /* bela pisava za kontrast */
     /* svetlejši odtenek ob hover */
     font-family: "CowboyOutlawTextured", serif !important;
+    border: 1px solid #634f4f !important;
+    /* bela obroba */
+    outline: none !important;
+    /* bela obroba */
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    /* bela obroba */
 }
