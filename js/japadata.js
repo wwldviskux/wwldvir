@@ -1,5 +1,5 @@
 
-APlesi=[];
+APlesi = [];
 
 
 // razbij na vrstice
@@ -65,7 +65,7 @@ function exeport2sheet(par) {
     }
   }
 
-  
+
   return copyArrayToSheets1(Aexp)
 }
 

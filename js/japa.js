@@ -157,21 +157,31 @@ strtmp += `
       </div>
       <div class="text-muted">
 `;
-
+stvar=0;
 for (let vrstica = 0; vrstica < arlinki.length; vrstica++) {
 
 if (tmparr[vrsticar][0] === arlinki[vrstica][0]) {
+stvar++;
 
+if (stvar==1)
 strtmp += `
 <p class="mb-0 lh-sm d-flex flex-column align-items-center"
    role="button"
    onclick="gFrameNav(${vrstica});">
 
-  <span class="fs-4 fw-bold CowBFont">${arlinki[vrstica][2]}</span>
+  <span class="fs-2 fw-bold CowBFont">${arlinki[vrstica][2]}</span>
   <span class="small">${arlinki[vrstica][3]}</span>
 
 </p>
 `;
+else
+strtmp += `
+<p class="mb-0 mt-3 lh-sm d-flex flex-column align-items-center"
+   role="button"
+   onclick="gFrameNav(${vrstica});">
+  <span class="fs-5 fw-bold CowBFont">${arlinki[vrstica][2]}</span>
+</p>
+`;  
 
 //break;
 }
