@@ -173,7 +173,7 @@ strtmp += `
 </p>
 `;
 
-break;
+//break;
 }
 }
 
@@ -463,14 +463,22 @@ function GrupaSetData(idgrupe) {
   document.title = APgrupe[idgrupe][0];
   arlinki.length = 0;
 
-  for (ples = 0; ples < APlesiGrupe[idgrupe].length; ples++) {
-    for (plesi = 0; plesi < APlesi.length; plesi++) {
+// 1. Filtriramo vrstice, kjer [5] ni prazen
+let filtered = APlesi.filter(row => row[4+idgrupe] !== "");
 
-      if (APlesiGrupe[idgrupe][ples] === APlesi[plesi][0]) {
-        arlinki.push(APlesi[plesi]);
-      }
-    }
-  }
+// 2. Sortiramo po [5] z vodilnimi ničlami na 10 znakov
+filtered.sort((a,b) => {
+    let padA = String(a[4+idgrupe]).padStart(10,'0');
+    let padB = String(b[4+idgrupe]).padStart(10,'0');
+    return padA.localeCompare(padB);
+});
+
+arlinki = filtered.map(row => row.slice(0,4));
+
+
+
+
+
 
   uredigrupdata(1);
 

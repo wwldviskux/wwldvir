@@ -18,6 +18,7 @@
 
 <body class="bg-dark text-light">
 
+    <script src="js/japadatacsv.js"></script>
     <script src="js/japadata.js"></script>
     <script src="js/japadk.js"></script>
     <script src="js/japa.js"></script>
@@ -66,7 +67,6 @@
 
 </nav>
 
-
     <!-- Main Content -->
     <div id="bodydiv" class="container mt-5 bg-dark text-white" data-bs-theme="dark">
 
@@ -101,6 +101,13 @@
         });
 
         initIzbIzPar(0);
+
+/*
+        document.getElementById('bodydiv').innerHTML =`
+        <p onclick="navigator.clipboard.writeText(exeport2sheet(0));">Izvoz 2 Clip</p>
+        `;
+*/
+
 
 
     </script>
