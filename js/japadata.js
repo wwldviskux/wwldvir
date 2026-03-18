@@ -1,6 +1,11 @@
 
-APlesi = [];
+//APlesi = [];
 
+var APgrupe = [
+  ['🕺Vir četrtek 7.0', 'bncdnvrghi']
+  , ['🕺JaPa', 'byqrxthghi']
+  , ['🕺Test', 'test']
+];
 
 // razbij na vrstice
 let lines = PlesiCsv.trim().split('\n');
@@ -10,11 +15,25 @@ var APlesi = lines.slice(1).map(line => line.split('\t'));
 
 
 
-var APgrupe = [
-  ['🕺Vir četrtek 7.0', 'bncdnvrghi']
-  , ['🕺JaPa', 'byqrxthghi']
-  , ['🕺Test', 'test']
-];
+
+
+
+
+for (let i = 0; i < APlesi.length; i++) {
+  if (i === 0 || APlesi[i][0] !== APlesi[i - 1][0]) {
+    firstIndex = i;
+  }
+  else {
+    for (let j = 4; j < 4+APgrupe.length; j++) {
+      APlesi[i][j] = APlesi[firstIndex][j];
+    }
+  }
+}
+
+i = 1
+
+
+
 
 
 

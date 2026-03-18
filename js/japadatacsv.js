@@ -61,6 +61,6 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Test
 48	https://youtu.be/kddUHJvJoig?t=119&autoplay=1	🕺Ghost town	-0		49	4
 49	https://youtu.be/4Uy6mhubXuo?t=77	🕺Black coffe	Black Coffee(Lacy J. Dalton)		50	3
 50	https://www.prettybarngood.com/sl/tutorials/16-bars	👢16 bars	16 bars(Connor Christian & Southern Gothic)		51	2
-50	https://youtu.be/ASMP82y6-Nw?t=6	🕺16 bars	16 bars(Connor Christian & Southern Gothic)		51	2
+50	https://youtu.be/ASMP82y6-Nw?t=6	🕺16 bars	16 bars(Connor Christian & Southern Gothic)		51	
 51	https://youtu.be/6OOUy9-VWdQ?t=25	🕺 Copperhead	Copperhead Road(Steve Earle)	40	40	1
 `;
