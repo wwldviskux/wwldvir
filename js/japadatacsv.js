@@ -44,25 +44,25 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Test
 35	https://www.prettybarngood.com/sl/tutorials/rose-garden	👢Rose-garden	I never promised you a rose garden(Martina McBride)	35	35	
 36	https://youtu.be/jlOLOSjl35w?t=8	🕺Lightning Polka	Sin Wagon(Dixie Chicks)	36	36	
 37	https://www.prettybarngood.com/sl/tutorials/three-teachers	👢Three teachers	Head Over Heels(The Washboard Union)	37	37	
-38	https://youtu.be/4zvRsodVGos?t=108&autoplay=1	🕺CUCARACHA	-0	38	38	
+38	https://youtu.be/4zvRsodVGos?t=108&autoplay=1	🕺CUCARACHA	-	38	38	
 39	https://www.youtube.com/watch?v=5srwzUZI26c	🕺My Cinderella	Catalan Country Dance (Music & Count)	39	39	
 40	https://youtu.be/QJOLdjyARVE?t=62	🕺District 51	All God's Creatures (Patrick Feeney)	41	41	
 41	https://youtu.be/fKqBn6P6HnQ?t=24	🕺Twenty Two	You Look Like You Love Me (Ella Langley)	42	42	
-42	https://www.prettybarngood.com/sl/tutorials/power	👢Power	Power(Ian Scott)		43	
-42	https://youtu.be/26EDiszBvks?t=195&autoplay=1	🕺Power	Power(Ian Scott)		43	10
-43	https://www.prettybarngood.com/sl/tutorials/colorado-girl	👢Colorado girl	Colorado Girl(The High Rollers)		44	9
-44	https://youtu.be/7Qhjf8PHpxo?t=192&autoplay=1	🕺Colorado girl	Colorado Girl(The High Rollers)		45	8
-45	https://www.prettybarngood.com/sl/tutorials/pay-me-my-money-down	👢Pay me my money down	Pay me my money down(Bruce Springsteen)		46	7
-46	https://www.youtube.com/watch?v=wNog5fk7Qx0&t=207s&autoplay=1	🕺Toes	-0		47	6
-46	https://www.youtube.com/watch?v=RfIfg25G3Gc&t=115s&autoplay=1	🕺Toes	-0		47	6
-47	https://youtu.be/b2SONui5eBQ?t=280&autoplay=1	🕺Mr Funky	-0		48	5
-47	https://youtu.be/b2SONui5eBQ?t=128&autoplay=1	🕺Mr Funky	-0		48	5
-48	https://youtu.be/xClTUeZYnz0?t=167&autoplay=1	🕺Ghost town	-0		49	4
-48	https://youtu.be/kddUHJvJoig?t=119&autoplay=1	🕺Ghost town	-0		49	4
-49	https://youtu.be/4Uy6mhubXuo?t=77	🕺Black coffe	Black Coffee(Lacy J. Dalton)		50	3
-50	https://www.prettybarngood.com/sl/tutorials/16-bars	👢16 bars	16 bars(Connor Christian & Southern Gothic)		51	2
-50	https://youtu.be/ASMP82y6-Nw?t=6	🕺16 bars	16 bars(Connor Christian & Southern Gothic)		51	
-51	https://youtu.be/6OOUy9-VWdQ?t=25	🕺 Copperhead	Copperhead Road(Steve Earle)	40	40	1
-52	https://youtu.be/b7g7Ol2cdQw?t=6	🕺3 Flicks	1 2 3 (Ann Tayler)	43	52	11
-52	https://youtu.be/wRHn4wlXUt8?t=270	🕺3 Flicks	1 2 3 (Ann Tayler)	43	52	11
+42	https://www.prettybarngood.com/sl/tutorials/power	👢Power	Power(Ian Scott)		1043	
+42	https://youtu.be/26EDiszBvks?t=195&autoplay=1	🕺Power	Power(Ian Scott)		1043	10
+43	https://www.prettybarngood.com/sl/tutorials/colorado-girl	👢Colorado girl	Colorado Girl(The High Rollers)		1044	9
+44	https://youtu.be/7Qhjf8PHpxo?t=192&autoplay=1	🕺Colorado girl	Colorado Girl(The High Rollers)		1045	8
+45	https://www.prettybarngood.com/sl/tutorials/pay-me-my-money-down	👢Pay me my money down	Pay me my money down(Bruce Springsteen)		1046	7
+46	https://www.youtube.com/watch?v=wNog5fk7Qx0&t=207s&autoplay=1	🕺Toes	-		1047	6
+46	https://www.youtube.com/watch?v=RfIfg25G3Gc&t=115s&autoplay=1	🕺Toes	-		1047	6
+47	https://youtu.be/b2SONui5eBQ?t=280&autoplay=1	🕺Mr Funky	-		1048	5
+47	https://youtu.be/b2SONui5eBQ?t=128&autoplay=1	🕺Mr Funky	-		1048	5
+1048	https://youtu.be/xClTUeZYnz0?t=167&autoplay=1	🕺Ghost town	-		1049	4
+1048	https://youtu.be/kddUHJvJoig?t=119&autoplay=1	🕺Ghost town	-		1049	4
+49	https://youtu.be/4Uy6mhubXuo?t=77	🕺Black coffe	Black Coffee(Lacy J. Dalton)		1050	3
+50	https://www.prettybarngood.com/sl/tutorials/16-bars	👢16 bars	16 bars(Connor Christian & Southern Gothic)		1051	2
+50	https://youtu.be/ASMP82y6-Nw?t=6	🕺16 bars	16 bars(Connor Christian & Southern Gothic)		1051	
+51	https://youtu.be/6OOUy9-VWdQ?t=25	🕺 Copperhead	Copperhead Road(Steve Earle)	40	1040	1
+52	https://youtu.be/b7g7Ol2cdQw?t=6	🕺3 Flicks	1 2 3 (Ann Tayler)	43	43	11
+52	https://youtu.be/wRHn4wlXUt8?t=270	🕺3 Flicks	1 2 3 (Ann Tayler)	43	43	11
 `;
