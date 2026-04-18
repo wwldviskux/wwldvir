@@ -20,7 +20,7 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Test
 17	https://youtu.be/i8O_jUdqlhU?t=4&autoplay=1	🕺Heyday Tonight	(Aarona Watsona)	17	17	
 18	https://youtu.be/v8z92QJaUPU?t=191&autoplay=1	🕺Knockin' Boots	(Luke Bryan)	18	18	
 19	https://www.prettybarngood.com/sl/tutorials/jr	👢JR	All You Need Is Me(Joey & Rory)	19	19	
-19	https://youtu.be/8Cpa74VeQzs?t=157&autoplay=1	🕺JR	All You Need Is Me(Joey & Rory)	19	19	
+19	https://youtu.be/8Cpa74VeQzs?t=157&autoplay=1	🕺JR	All You Need Is Me(Joey & Rory)			
 20	https://www.prettybarngood.com/sl/tutorials/paris,-tennessee	👢Paris, Tennessee	Jérémy Souppart	20	20	
 21	https://www.prettybarngood.com/sl/tutorials/anything-for-love	👢Anything for love	Anything for love(James House)	21	21	
 21	https://youtu.be/p-f5MT2bknQ?t=155&autoplay=1	🕺Anything for love	Anything for love(James House)	21	21	
@@ -49,20 +49,21 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Test
 40	https://youtu.be/QJOLdjyARVE?t=62	🕺District 51	All God's Creatures (Patrick Feeney)	41	41	
 41	https://youtu.be/fKqBn6P6HnQ?t=24	🕺Twenty Two	You Look Like You Love Me (Ella Langley)	42	42	
 42	https://www.prettybarngood.com/sl/tutorials/power	👢Power	Power(Ian Scott)		1043	
-42	https://youtu.be/26EDiszBvks?t=195&autoplay=1	🕺Power	Power(Ian Scott)		1043	10
+42	https://youtu.be/26EDiszBvks?t=195&autoplay=1	🕺Power	Power(Ian Scott)		 	10
 43	https://www.prettybarngood.com/sl/tutorials/colorado-girl	👢Colorado girl	Colorado Girl(The High Rollers)		1044	9
-44	https://youtu.be/7Qhjf8PHpxo?t=192&autoplay=1	🕺Colorado girl	Colorado Girl(The High Rollers)		1045	8
+44	https://youtu.be/7Qhjf8PHpxo?t=192&autoplay=1	🕺Colorado girl	Colorado Girl(The High Rollers)		 	8
 45	https://www.prettybarngood.com/sl/tutorials/pay-me-my-money-down	👢Pay me my money down	Pay me my money down(Bruce Springsteen)		1046	7
 46	https://www.youtube.com/watch?v=wNog5fk7Qx0&t=207s&autoplay=1	🕺Toes	-		1047	6
-46	https://www.youtube.com/watch?v=RfIfg25G3Gc&t=115s&autoplay=1	🕺Toes	-		1047	6
+46	https://www.youtube.com/watch?v=RfIfg25G3Gc&t=115s&autoplay=1	🕺Toes	-		 	6
 47	https://youtu.be/b2SONui5eBQ?t=280&autoplay=1	🕺Mr Funky	-		1048	5
-47	https://youtu.be/b2SONui5eBQ?t=128&autoplay=1	🕺Mr Funky	-		1048	5
-1048	https://youtu.be/xClTUeZYnz0?t=167&autoplay=1	🕺Ghost town	-		1049	4
-1048	https://youtu.be/kddUHJvJoig?t=119&autoplay=1	🕺Ghost town	-		1049	4
-49	https://youtu.be/4Uy6mhubXuo?t=77	🕺Black coffe	Black Coffee(Lacy J. Dalton)		1050	3
-50	https://www.prettybarngood.com/sl/tutorials/16-bars	👢16 bars	16 bars(Connor Christian & Southern Gothic)		1051	2
-50	https://youtu.be/ASMP82y6-Nw?t=6	🕺16 bars	16 bars(Connor Christian & Southern Gothic)		1051	
-51	https://youtu.be/6OOUy9-VWdQ?t=25	🕺 Copperhead	Copperhead Road(Steve Earle)	40	1040	1
+47	https://youtu.be/b2SONui5eBQ?t=128&autoplay=1	🕺Mr Funky	-		 	5
+48	https://youtu.be/xClTUeZYnz0?t=167&autoplay=1	🕺Ghost town	-		1049	4
+48	https://youtu.be/kddUHJvJoig?t=119&autoplay=1	🕺Ghost town	-			4
+49	https://youtu.be/4Uy6mhubXuo?t=77	🕺Black coffe	Black Coffee(Lacy J. Dalton)		1051	3
+50	https://www.prettybarngood.com/sl/tutorials/16-bars	👢16 bars	16 bars(Connor Christian & Southern Gothic)		1052	2
+50	https://youtu.be/ASMP82y6-Nw?t=6	🕺16 bars	16 bars(Connor Christian & Southern Gothic)			
+51	https://youtu.be/6OOUy9-VWdQ?t=25	🕺 Copperhead	Copperhead Road(Steve Earle)	40	40	1
 52	https://youtu.be/b7g7Ol2cdQw?t=6	🕺3 Flicks	1 2 3 (Ann Tayler)	43	43	11
-52	https://youtu.be/wRHn4wlXUt8?t=270	🕺3 Flicks	1 2 3 (Ann Tayler)	43	43	11
+52	https://youtu.be/wRHn4wlXUt8?t=270	🕺3 Flicks	1 2 3 (Ann Tayler)	 	 	11
+53	https://youtu.be/KlSD-2hzRPA?t=15	🕺Choosin' Texas	Choosin’ Texas(Ella Langley)	44	44	1013
 `;
