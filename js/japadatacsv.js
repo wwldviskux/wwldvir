@@ -68,4 +68,5 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Test
 53	https://youtu.be/KlSD-2hzRPA?t=15	🕺Choosin' Texas	Choosin’ Texas(Ella Langley)	44	44	1013
 54	https://youtu.be/XRJNV64wK-Q?t=155	🕺We Went	We Went(Randy Houser)	45	45	12
 55	https://youtu.be/-DHcUXb3s-c?t=118	🕺Better Country	Better Country(Paul Brandt, Doug Romanow)	46	46	13
+56	https://www.youtube.com/watch?v=hWsycLKZsb4	👢Peaceful & Easy	Peaceful easy feeling(Little Texas)	47	47	14
 `;
