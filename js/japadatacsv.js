@@ -48,10 +48,10 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Test
 39	https://www.youtube.com/watch?v=5srwzUZI26c	🕺My Cinderella	Catalan Country Dance (Music & Count)	39	39	
 40	https://youtu.be/QJOLdjyARVE?t=62	🕺District 51	All God's Creatures (Patrick Feeney)	41	41	
 41	https://youtu.be/fKqBn6P6HnQ?t=24	🕺Twenty Two	You Look Like You Love Me (Ella Langley)	42	42	
-42	https://www.prettybarngood.com/sl/tutorials/power	👢Power	Power(Ian Scott)		1043	
+42	https://www.prettybarngood.com/sl/tutorials/power	👢Power	Power(Ian Scott)	48	48	
 42	https://youtu.be/26EDiszBvks?t=195&autoplay=1	🕺Power	Power(Ian Scott)		 	10
 43	https://www.prettybarngood.com/sl/tutorials/colorado-girl	👢Colorado girl	Colorado Girl(The High Rollers)		1044	9
-44	https://youtu.be/7Qhjf8PHpxo?t=192&autoplay=1	🕺Colorado girl	Colorado Girl(The High Rollers)		 	8
+43	https://youtu.be/7Qhjf8PHpxo?t=192&autoplay=1	🕺Colorado girl	Colorado Girl(The High Rollers)		 	8
 45	https://www.prettybarngood.com/sl/tutorials/pay-me-my-money-down	👢Pay me my money down	Pay me my money down(Bruce Springsteen)		1046	7
 46	https://www.youtube.com/watch?v=wNog5fk7Qx0&t=207s&autoplay=1	🕺Toes	-		1047	6
 46	https://www.youtube.com/watch?v=RfIfg25G3Gc&t=115s&autoplay=1	🕺Toes	-		 	6
@@ -69,5 +69,5 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Test
 54	https://youtu.be/XRJNV64wK-Q?t=155	🕺We Went	We Went(Randy Houser)	45	45	12
 55	https://youtu.be/-DHcUXb3s-c?t=118	🕺Better Country	Better Country(Paul Brandt, Doug Romanow)	46	46	13
 56	https://www.youtube.com/watch?v=hWsycLKZsb4	👢Peaceful & Easy	Peaceful easy feeling(Little Texas)	47	47	14
-56	https://youtu.be/McFRWkARM8A?t=135	🕺Peaceful & Easy	Peaceful easy feeling(Little Texas)
+56	https://youtu.be/McFRWkARM8A?t=135	🕺Peaceful & Easy	Peaceful easy feeling(Little Texas)			
 `;
