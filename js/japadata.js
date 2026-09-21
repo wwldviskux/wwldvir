@@ -4,7 +4,7 @@
 var APgrupe = [
   ['🕺Vir četrtek 7.0', 'bncdnvrghi']
   , ['🕺JaPa', 'byqrxthghi']
-  , ['🕺Test', 'test']
+  , ['🕺Vir sreda 8.0', 'virs80sldkleo']
 ];
 
 // razbij na vrstice
