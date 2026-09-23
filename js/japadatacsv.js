@@ -45,7 +45,7 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Vir sreda 8.0
 36	https://youtu.be/jlOLOSjl35w?t=8	🕺Lightning Polka	Sin Wagon (Dixie Chicks)	36	36	
 37	https://www.prettybarngood.com/sl/tutorials/three-teachers	👢Three Teachers	Head Over Heels (The Washboard Union)	37	37	20
 38	https://youtu.be/4zvRsodVGos?t=108&autoplay=1	🕺Cucaracha	All You Ever Do Is Bring Me Down (The Mavericks)	38	38	15
-39	https://www.youtube.com/watch?v=5srwzUZI26c	🕺My Cinderella	Catalan Country Dance (Music & Count)	39	39	50
+39	https://www.youtube.com/watch?v=5srwzUZI26c&t=0	🕺My Cinderella	Catalan Country Dance (Music & Count)	39	39	50
 40	https://youtu.be/QJOLdjyARVE?t=62	🕺District 51	All God's Creatures (Patrick Feeney)	41	41	
 41	https://youtu.be/fKqBn6P6HnQ?t=24	🕺Twenty Two	You Look Like You Love Me (Ella Langley)	42	42	61
 42	https://www.prettybarngood.com/sl/tutorials/power	👢Power	Power (Ian Scott)	48	48	14
@@ -56,34 +56,33 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Vir sreda 8.0
 46	https://www.youtube.com/watch?v=wNog5fk7Qx0&t=207s&autoplay=1	🕺Toes	Toes (Zac Brown Band)		1047	31
 46	https://www.youtube.com/watch?v=RfIfg25G3Gc&t=115s&autoplay=1	🕺Toes	Toes (Zac Brown Band)		 	31
 47	https://youtu.be/b2SONui5eBQ?t=280&autoplay=1	🕺Mr. Funky	Hillbillies (Hot Apple Pie)		1048	19
-47	https://youtu.be/b2SONui5eBQ?t=128&autoplay=1	🕺Mr. Funky	Hillbillies (Hot Apple Pie)		 	19
 48	https://youtu.be/xClTUeZYnz0?t=167&autoplay=1	🕺Ghost Town	Ghost Town (Sam Outlaw)		1049	21
 48	https://youtu.be/kddUHJvJoig?t=119&autoplay=1	🕺Ghost Town	Ghost Town (Sam Outlaw)			21
 49	https://youtu.be/4Uy6mhubXuo?t=77	🕺Black Coffee	Black Coffee (Lacy J. Dalton)		1051	48
 50	https://www.prettybarngood.com/sl/tutorials/16-bars	👢16 Bars	16 Bars (Connor Christian & Southern Gothic)		1052	43
 50	https://youtu.be/ASMP82y6-Nw?t=6	🕺16 Bars	16 Bars (Connor Christian & Southern Gothic)			43
 51	https://youtu.be/6OOUy9-VWdQ?t=25	🕺Copperhead	Copperhead Road (Steve Earle)	40	40	55
-52	https://youtu.be/b7g7Ol2cdQw?t=6	🕺3 Flicks	1 2 3 (Ann Tayler)	43	43	60
+52	https://youtu.be/uxls14mZiN4?t=115	🕺3 Flicks	1 2 3 (Ann Tayler)	43	43	60
 52	https://youtu.be/wRHn4wlXUt8?t=270	🕺3 Flicks	1 2 3 (Ann Tayler)	 	 	60
 53	https://youtu.be/KlSD-2hzRPA?t=15	🕺Choosin' Texas	Choosin' Texas (Ella Langley)	44	44	
 54	https://youtu.be/XRJNV64wK-Q?t=155	🕺We Went	We Went (Randy Houser)	45	45	
 55	https://youtu.be/-DHcUXb3s-c?t=118	🕺Better Country	Better Country (Paul Brandt, Doug Romanow)	46	46	57
-56	https://www.youtube.com/watch?v=hWsycLKZsb4	🕺Peaceful & Easy	Peaceful Easy Feeling (Little Texas)	47	47	
+56	https://www.youtube.com/watch?v=hWsycLKZsb4&t=0	🕺Peaceful & Easy	Peaceful Easy Feeling (Little Texas)	47	47	
 56	https://youtu.be/McFRWkARM8A?t=135	🕺Peaceful & Easy	Peaceful Easy Feeling (Little Texas)			
 57	https://www.prettybarngood.com/sl/tutorials/late-express	👢Late Express	Then It Hits You (Daniel Lee Martin)			22
-58	https://youtu.be/dGHEukWTVKA?t=0&autoplay=1	🕺White Soldier	When I'm Gone (The Wild Horses)			23
+58	https://youtu.be/-YOvY4suuRg?t=195	🕺White Soldier	When I'm Gone (The Wild Horses)			23
 59	https://www.prettybarngood.com/sl/tutorials/on-the-road	👢On the Road	On the Road Again (Lisa McHugh)			24
-60	https://youtu.be/kQQv5kqZFcc?t=0&autoplay=1	🕺Work Boots	Work Boots (Cody Johnson)			25
+60	https://youtu.be/kQQv5kqZFcc?t=8	🕺Work Boots	Work Boots (Cody Johnson)			25
 61	https://www.prettybarngood.com/sl/tutorials/tiger	👢Tiger	I've Got a Tiger By the Tail (Buck Owens)			26
 62	https://www.prettybarngood.com/sl/tutorials/cotton-pickin-time	👢Cotton Pickin' Time	Cotton Pickin' Time (Blake Shelton)			27
 63	https://www.prettybarngood.com/sl/tutorials/tag-on	👢Tag On	Too Strong to Break (Beccy Cole)			29
 64	https://www.prettybarngood.com/sl/tutorials/redneck-woman	👢Redneck Woman	Redneck Woman (Gretchen Wilson)			33
 65	https://youtu.be/k0_cu-Mj1nE?t=0&autoplay=1	🕺Could Be Worse	Things I Take for Granted (Larry Fleet)			35
-66	https://youtu.be/ja7vlEZedxg?t=0&autoplay=1	🕺A Different Summer	Beer Can't Fix (Thomas Rhett feat. Jon Pardi)			39
+66	https://youtu.be/MSSZv5CWko0?t=162	🕺A Different Summer	Beer Can't Fix (Thomas Rhett feat. Jon Pardi)			39
 67	https://www.prettybarngood.com/sl/tutorials/midnight-train	👢Midnight Train	Midnight Train (The Washboard Union)			40
 68	https://www.prettybarngood.com/sl/tutorials/cheyenne	👢Cheyenne	I Feel Lucky (Mary Chapin Carpenter)			41
 69	https://youtu.be/lNq-YVRv1uQ?t=0&autoplay=1	🕺Puddle of Love	Puddle of Love (Mason Ramsey)			42
-70	https://youtu.be/J5IInbQWr8I?t=0&autoplay=1	🕺Sweet Erika	Small Town Big Time (Blake Shelton)			47
+70	https://youtu.be/f-UXjdsMgfY?t=205	🕺Sweet Erika	Small Town Big Time (Blake Shelton)			47
 71	https://youtu.be/6xHchDW8hoY?t=0&autoplay=1	🕺Django	Too Old to Die Young (Brother Dege)			56
 72	https://youtu.be/yEVM_gp_HqQ?t=0&autoplay=1	🕺Chill Factor	Last Night feat. DJ Robbie (Chris Anderson)			59
 `;
