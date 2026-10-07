@@ -66,7 +66,7 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Vir sreda 8.0
 52	https://youtu.be/b7g7Ol2cdQw?t=6	🕺3 Flicks	1 2 3 (Ann Tayler)	43	43	60
 52	https://youtu.be/wRHn4wlXUt8?t=270	🕺3 Flicks	1 2 3 (Ann Tayler)	43	43	60
 53	https://youtu.be/KlSD-2hzRPA?t=15	🕺Choosin' Texas	Choosin' Texas (Ella Langley)	44	44	
-54	https://youtu.be/XRJNV64wK-Q?t=155	🕺We Went	We Went (Randy Houser)	45	45	57
+54	https://youtu.be/XRJNV64wK-Q?t=155	🕺We Went	We Went (Randy Houser)	45	45	
 55	https://youtu.be/-DHcUXb3s-c?t=118	🕺Better Country	Better Country (Paul Brandt, Doug Romanow)	46	46	57
 56	https://www.youtube.com/watch?v=hWsycLKZsb4	🕺Peaceful & Easy	Peaceful Easy Feeling (Little Texas)	47	47	14
 56	https://youtu.be/McFRWkARM8A?t=135	🕺Peaceful & Easy	Peaceful Easy Feeling (Little Texas)	47	47	
@@ -78,7 +78,7 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Vir sreda 8.0
 62	https://www.prettybarngood.com/sl/tutorials/cotton-pickin-time	👢Cotton Pickin' Time	Cotton Pickin' Time (Blake Shelton)			27
 63	https://www.prettybarngood.com/sl/tutorials/tag-on	👢Tag On	Too Strong to Break (Beccy Cole)			29
 64	https://www.prettybarngood.com/sl/tutorials/redneck-woman	👢Redneck Woman	Redneck Woman (Gretchen Wilson)			33
-65	data:text/html;charset=utf-8,<h1>⚠️ Ni povezave !!!</h1>	🕺Could Be Worse	Things I Take for Granted (Larry Fleet)			35
+65	data:text/html;charset=utf-8,<h1>⚠️ Ni povezave !!!</h1>	🕺Could Be Worse	Things I Take for Granted (Larry Fleet)			
 66	https://youtu.be/ja7vlEZedxg?t=0&autoplay=1	🕺A Different Summer	Beer Can't Fix (Thomas Rhett feat. Jon Pardi)	49	49	39
 67	https://www.prettybarngood.com/sl/tutorials/midnight-train	👢Midnight Train	Midnight Train (The Washboard Union)			40
 68	https://www.prettybarngood.com/sl/tutorials/cheyenne	👢Cheyenne	I Feel Lucky (Mary Chapin Carpenter)			41
