@@ -65,7 +65,7 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Vir sreda 8.0
 51	https://youtu.be/6OOUy9-VWdQ?t=25	🕺Copperhead	Copperhead Road (Steve Earle)	40	40	55
 52	https://youtu.be/b7g7Ol2cdQw?t=6	🕺3 Flicks	1 2 3 (Ann Tayler)	43	43	60
 52	https://youtu.be/wRHn4wlXUt8?t=270	🕺3 Flicks	1 2 3 (Ann Tayler)	43	43	60
-53	https://youtu.be/KlSD-2hzRPA?t=15	🕺Choosin' Texas	Choosin' Texas (Ella Langley)	44	44	
+53	https://youtu.be/KlSD-2hzRPA?t=15	🕺Choosin' Texas	Choosin' Texas (Ella Langley)	44	44	63
 54	https://youtu.be/XRJNV64wK-Q?t=155	🕺We Went	We Went (Randy Houser)	45	45	
 55	https://youtu.be/-DHcUXb3s-c?t=118	🕺Better Country	Better Country (Paul Brandt, Doug Romanow)	46	46	57
 56	https://www.youtube.com/watch?v=hWsycLKZsb4	🕺Peaceful & Easy	Peaceful Easy Feeling (Little Texas)	47	47	14
@@ -86,4 +86,5 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Vir sreda 8.0
 70	https://youtu.be/J5IInbQWr8I?t=0&autoplay=1	🕺Sweet Erika	Small Town Big Time (Blake Shelton)			47
 71	https://youtu.be/6xHchDW8hoY?t=0&autoplay=1	🕺Django	Too Old to Die Young (Brother Dege)			56
 72	https://youtu.be/yEVM_gp_HqQ?t=0&autoplay=1	🕺Chill Factor	Last Night feat. DJ Robbie (Chris Anderson)			59
+73	https://youtu.be/mCwjZL3CIJA?t=169	🕺El Pistolero	DJ Berta(Luca Bertarelli)			62
 `;
