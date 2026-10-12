@@ -79,7 +79,7 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Vir sreda 8.0
 63	https://www.prettybarngood.com/sl/tutorials/tag-on	👢Tag On	Too Strong to Break (Beccy Cole)			29
 64	https://www.prettybarngood.com/sl/tutorials/redneck-woman	👢Redneck Woman	Redneck Woman (Gretchen Wilson)			33
 65	data:text/html;charset=utf-8,<h1>⚠️ Ni povezave !!!</h1>	🕺Could Be Worse	Things I Take for Granted (Larry Fleet)			
-66	https://youtu.be/ja7vlEZedxg?t=0&autoplay=1	🕺A Different Summer	Beer Can't Fix (Thomas Rhett feat. Jon Pardi)	49	49	39
+66	https://youtu.be/MSSZv5CWko0?t=166	🕺A Different Summer	Beer Can't Fix (Thomas Rhett feat. Jon Pardi)	49	49	39
 67	https://www.prettybarngood.com/sl/tutorials/midnight-train	👢Midnight Train	Midnight Train (The Washboard Union)			40
 68	https://www.prettybarngood.com/sl/tutorials/cheyenne	👢Cheyenne	I Feel Lucky (Mary Chapin Carpenter)			41
 69	https://youtu.be/lNq-YVRv1uQ?t=0&autoplay=1	🕺Puddle of Love	Puddle of Love (Mason Ramsey)			42
