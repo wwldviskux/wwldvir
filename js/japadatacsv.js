@@ -87,5 +87,5 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Vir sreda 8.0
 71	https://youtu.be/6xHchDW8hoY?t=0&autoplay=1	🕺Django	Too Old to Die Young (Brother Dege)			56
 72	https://youtu.be/yEVM_gp_HqQ?t=0&autoplay=1	🕺Chill Factor	Last Night feat. DJ Robbie (Chris Anderson)			59
 73	https://youtu.be/mCwjZL3CIJA?t=169	🕺El Pistolero	DJ Berta(Luca Bertarelli)			62
-74	https://youtu.be/LJHx6if65vs?t=13	👢Oregon	Getaway Truck(Aaron Watson)	50	50	64
+74	https://youtu.be/LJHx6if65vs?t=13	🕺Oregon	Getaway Truck(Aaron Watson)	50	50	64
 `;
