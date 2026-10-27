@@ -30,7 +30,7 @@ ID	LINK	PLES	SKLADBA	🕺Vir četrtek 7.0	🕺JaPa	🕺Vir sreda 8.0
 25	https://youtu.be/Q5ZXN7hOggc?t=3	🕺Lalali	This Is Not Goodbye (Johnny Reid)	25	25	
 26	https://www.prettybarngood.com/sl/tutorials/thanks-a-lot	👢Thanks a Lot	Heavens Cried (Martina McBride)	26	26	54
 26	https://youtu.be/SEFDFKbHU8o?t=165	🕺📖Thanks a Lot	Heavens Cried (Martina McBride)	26	26	54
-27	https://www.prettybarngood.com/sl/tutorials/american-kids	👢American Kids	American Kids (Kenny Chesney)	27	27	
+27	https://www.prettybarngood.com/sl/tutorials/american-kids	👢American Kids	American Kids (Kenny Chesney)	27	27	65
 27	https://youtu.be/CzhTpzfJF7w?t=130	🕺📖American Kids	American Kids (Kenny Chesney)	27	27	
 28	https://youtu.be/L502Rv5aCwM?t=133	🕺Heads or Tails	Heads Carolina, Tails California	28	28	46
 29	https://youtu.be/YczIirsCxbw?t=433	🕺One & Only	One & Only (Dierks Bentley)	29	29	
